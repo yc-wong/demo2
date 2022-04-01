@@ -1,0 +1,14 @@
+{
+    "name": "demo1",
+    "version": "0.1.0",
+    "main": "lib/index.js",
+    "dependencies": {
+        "@ijstech/plugin": "git+https://github.com/ijstech/plugin.git"
+    },
+    "devDependencies": {
+        "typescript": "4.3.5"
+    },
+    "scripts": {
+        "build": "rm -rf lib && tsc"
+    }
+}
